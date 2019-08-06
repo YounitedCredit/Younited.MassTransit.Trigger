@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Arnaud TAMAILLON</Authors>
+    <Company>Younited</Company>
+    <Description>This is a package dedicated to connect functions to MassTransit triggers.</Description>
+    <Copyright>Copyright @ Younited Credit</Copyright>
+    <PackageIconUrl>https://github.com/YounitedCredit/Younited.MassTransit.Trigger/blob/master/build/younited.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/YounitedCredit/Younited.MassTransit.Trigger</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="5.5.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="3.0.2" />
+  </ItemGroup>
+
+</Project>
